@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Ulang Tahun!</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Selamat Ulang Tahun,</h1>
+        <h2 class="name">[Rizky Ardiansyah Alias Meng]</h2>
+        
+        <p class="message">Semoga hari istimewa ini membawa kebahagiaan, tawa, dan semua yang terbaik. 🎉</p>
+        
+        <div class="candle-container">
+            <div class="candle">
+                <div class="flame"></div>
+            </div>
+            <div class="base"></div>
+        </div>
+
+        <audio id="birthday-song" autoplay loop>
+            <source src="music/happy_birthday.mp3" type="audio/mp3">
+            Browser Anda tidak mendukung elemen audio.
+        </audio>
+
+        <button id="play-pause-btn" onclick="toggleAudio()"><i class="fas fa-pause"></i> Pause Musik</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
